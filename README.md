@@ -11,3 +11,9 @@ SVG转多分辨率ICO图标
 
 ![](https://image.xiaoxin.pro/2022/09/13/51a33c9a38888.png)
 
+## 下载软件
+
+建议下载releases版本软件，当然你也可克隆源代码自己编译。
+
+[https://github.com/xiaoxinpro/svg2icons/releases](https://github.com/xiaoxinpro/svg2icons/releases)
+
