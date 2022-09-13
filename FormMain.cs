@@ -21,6 +21,7 @@ namespace svg2icons
 
         private void FormMain_Load(object sender, EventArgs e)
         {
+            this.Text += @" V" + System.Windows.Forms.Application.ProductVersion.ToString();
             InitCheckedList(CheckedListBoxDPI);
         }
 
