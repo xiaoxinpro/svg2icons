@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.label1 = new System.Windows.Forms.Label();
             this.TextBoxInput = new System.Windows.Forms.TextBox();
             this.ButtonOutput = new System.Windows.Forms.Button();
@@ -107,6 +108,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TextBoxInput);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SVG转多分辨率ICO图标";
